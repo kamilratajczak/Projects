@@ -1,0 +1,542 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44ff44"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp" >
+
+        <TextView
+            android:id="@+id/tvFat"
+            style="@style/tvCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_below="@+id/textView13"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fat"
+            style="@style/tvNoName"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/tvFat"
+            android:layout_alignEnd="@+id/tvFat" />
+
+        <TextView
+            android:id="@+id/textView23"
+            style="@style/tvNoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Calories"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tvCalories"
+            style="@style/tvAllCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_alignBaseline="@+id/tvProtein"
+            android:layout_alignBottom="@+id/tvProtein"
+            android:layout_alignRight="@+id/textView23"
+            android:layout_alignEnd="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView25"
+            style="@style/tvNoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carbs"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/tvCarbs"
+            android:layout_alignEnd="@+id/tvCarbs" />
+
+        <TextView
+            android:id="@+id/textView26"
+            style="@style/tvNoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protein"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/tvProtein"
+            android:layout_alignEnd="@+id/tvProtein" />
+
+        <TextView
+            android:id="@+id/tvCarbs"
+            style="@style/tvCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_alignTop="@+id/tvFat"
+            android:layout_marginLeft="@dimen/carbs_margin"
+            android:layout_marginStart="@dimen/carbs_margin"/>
+
+        <TextView
+            android:id="@+id/tvProtein"
+            style="@style/tvCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvFat"
+            android:layout_marginLeft="@dimen/protein_margin"
+            android:layout_marginStart="@dimen/protein_margin"
+            android:text="0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangle_top"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/tvFat"
+            android:id="@+id/bLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/tvBreakfast"
+                style="@style/tvAllCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                style="@style/tvNameOfMeal"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:text="Breakfast" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_add_circle_black_24dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/rectangle_bottom"
+            android:layout_below="@+id/bLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/breakfastLayout">
+
+            <TextView
+                android:id="@+id/bProtein"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="@dimen/protein_margin"
+                android:layout_marginStart="@dimen/protein_margin"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/bCarbs"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="@dimen/carbs_margin"
+                android:layout_marginStart="@dimen/carbs_margin"
+                android:layout_alignTop="@+id/bProtein" />
+
+            <TextView
+                android:id="@+id/bFat"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignTop="@+id/bProtein"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lvBreakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/breakfastLayout"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangle_top"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/lvBreakfast"
+            android:id="@+id/lLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/tvLunch"
+                style="@style/tvAllCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                style="@style/tvNameOfMeal"
+                android:layout_toEndOf="@+id/imageView5"
+                android:layout_toRightOf="@+id/imageView5"
+                android:text="Lunch" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_add_circle_black_24dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/rectangle_bottom"
+            android:layout_below="@+id/lLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/lunchLayout">
+
+            <TextView
+                android:id="@+id/lProtein"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="@dimen/protein_margin"
+                android:layout_marginStart="@dimen/protein_margin"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/lCarbs"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="@dimen/carbs_margin"
+                android:layout_marginStart="@dimen/carbs_margin"
+                android:layout_alignTop="@+id/lProtein" />
+
+            <TextView
+                android:id="@+id/lFat"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignTop="@+id/lProtein" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lvLunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lunchLayout"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangle_top"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/lvLunch"
+            android:id="@+id/dLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/tvDinner"
+                style="@style/tvAllCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                style="@style/tvNameOfMeal"
+                android:layout_toEndOf="@+id/imageView6"
+                android:layout_toRightOf="@+id/imageView6"
+                android:text="Dinner" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_add_circle_black_24dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/rectangle_bottom"
+            android:layout_below="@+id/dLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/dinnerLayout">
+
+            <TextView
+                android:id="@+id/dProtein"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="@dimen/protein_margin"
+                android:layout_marginStart="@dimen/protein_margin"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/dCarbs"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="@dimen/carbs_margin"
+                android:layout_marginStart="@dimen/carbs_margin"
+                android:layout_alignTop="@+id/dProtein" />
+
+            <TextView
+                android:id="@+id/dFat"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignTop="@+id/dProtein" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lvDinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dinnerLayout"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangle_top"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/lvDinner"
+            android:id="@+id/sLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/tvSupper"
+                style="@style/tvAllCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                style="@style/tvNameOfMeal"
+                android:layout_toEndOf="@+id/imageView8"
+                android:layout_toRightOf="@+id/imageView8"
+                android:text="Supper" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_add_circle_black_24dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/rectangle_bottom"
+            android:layout_below="@+id/sLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/supperLayout">
+
+            <TextView
+                android:id="@+id/sProtein"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="@dimen/protein_margin"
+                android:layout_marginStart="@dimen/protein_margin"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/sCarbs"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="@dimen/carbs_margin"
+                android:layout_marginStart="@dimen/carbs_margin"
+                android:layout_alignTop="@+id/sProtein"/>
+
+            <TextView
+                android:id="@+id/sFat"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignTop="@+id/sProtein" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lvSupper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/supperLayout"
+            android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rectangle_top"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/lvSupper"
+        android:id="@+id/wLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            style="@style/tvNameOfMeal"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_toRightOf="@+id/imageView7"
+            android:text="Workout" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_circle_black_24dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/rectangle_bottom"
+        android:layout_below="@+id/wLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/workoutLayout">
+
+        <TextView
+            android:id="@+id/tvWorkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            style="@style/tvCalories"
+            android:text="No workout today" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lvWorkout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/workoutLayout"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

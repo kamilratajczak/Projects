@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mapa Mieszkan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Rejestracja">Zarejestruj</string>
+    <string name="Logowanie">Zaloguj</string>
+    <string name="Czyszczenie">Wyczyść</string>
+    <string name="Wybor">Co chciałbyś zrobić?</string>
+    <string name="Witaj">Witaj użytkowniku!</string>
+    <string name="Wyszukaj">Wyszukaj</string>
+    <string name="Nowe">Dodaj nowe</string>
+    <string name="Zarejestruj">Nie masz konta? Załóż je!</string>
+    <string name="Zapisz">Zapisz</string>
+    <string name="Szukaj">Szukaj</string>
+    <string name="MojeKonto">Moje Konto</string>
+    <string name="DodajOgloszenie">Dodaj ogłoszenie</string>
+    <string name="MojeOgloszenia">Moje ogłoszenia</string>
+    <string name="Wyloguj">Wyloguj</string>
+    <string name="Lokalizacja">Lokalizacja:</string>
+    <string name="ilosc_pokoi">Ilość pokoi:</string>
+    <string name="Cena">Cena:</string>
+    <string name="Dodaj">Dodaj</string>
+    <string name="Data_dodania">Data dodania:</string>
+    <string name="Dodajacy">Dodający:</string>
+    <string name="Adres">Adres:</string>
+    <string name="Miasto">Miasto:</string>
+    <string name="Ulica">Ulica:</string>
+    <string name="Numer">Numer:</string>
+    <string name="Metraz">Metraż:</string>
+    <string name="Nr_tel">Numer telefonu:</string>
+    <string name="metraz">Metraż</string>
+    <string name="Zmien">Zmień</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mapamieszkan.MainActivity" >
+
+    <item
+        android:id="@+id/moje_konto"
+        android:orderInCategory="70"
+        android:showAsAction="never"
+        android:title="@string/MojeKonto" />
+    
+    <item
+        android:id="@+id/dodaj_ogloszenie"
+        android:orderInCategory="80"
+        android:showAsAction="never"
+        android:title="@string/DodajOgloszenie" />
+    
+    <item
+        android:id="@+id/moje_ogloszenia"
+        android:orderInCategory="90"
+        android:showAsAction="never"
+        android:title="@string/MojeOgloszenia" />
+    
+    <item
+        android:id="@+id/wyloguj"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/Wyloguj" />
+    
+</menu>

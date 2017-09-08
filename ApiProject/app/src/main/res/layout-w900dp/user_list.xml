@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:background="#eee"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    tools:context="befit.example.com.apiproject.Activities.UserListActivity">
+
+    <!--
+    This layout is a two-pane layout for the Users
+    master/detail flow.
+    
+    -->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="@dimen/item_width">
+
+        <android.support.v7.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/search_size"
+            android:id="@+id/searchView">
+        </android.support.v7.widget.SearchView>
+
+        <ListView
+            android:id="@+id/lvUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/searchView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/user_detail_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3" >
+
+        <TextView
+            android:id="@+id/tv900"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv900"
+            android:layout_margin="30dp"
+            style="@style/tv900"/>
+    </FrameLayout>
+
+</LinearLayout>

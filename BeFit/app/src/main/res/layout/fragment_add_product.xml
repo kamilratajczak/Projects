@@ -1,0 +1,149 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44ff44"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/tvAddProductsSmaller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp"
+            android:text="Name:" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/tvAddProductsSmaller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Calories:"
+            android:layout_below="@+id/textView5"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignStart="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/tvAddProductsSmaller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="30dp"
+            android:text="Fat:" />
+
+        <TextView
+            android:id="@+id/textView15"
+            style="@style/tvAddProductsSmaller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_alignStart="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="30dp"
+            android:text="Carbs:" />
+
+        <TextView
+            android:id="@+id/textView22"
+            style="@style/tvAddProductsSmaller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView15"
+            android:layout_alignStart="@+id/textView15"
+            android:layout_below="@+id/textView15"
+            android:layout_marginTop="30dp"
+            android:text="Protein:" />
+
+        <TextView
+            android:id="@+id/textView27"
+            style="@style/tvAddProducts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Please add the product data" />
+
+        <Button
+            android:id="@+id/btnAddSave"
+            style="@style/Buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView22"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="SAVE" />
+
+        <EditText
+            android:id="@+id/etAddName"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/textView5"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/etAddCalories"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etAddName"
+            android:layout_alignStart="@+id/etAddName"
+            android:layout_alignBaseline="@id/textView6"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/etAddFat"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_alignBaseline="@id/textView8"
+            android:layout_alignLeft="@+id/etAddName"
+            android:layout_alignStart="@+id/etAddName"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/etAddCarbs"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/textView15"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_alignLeft="@+id/etAddName"
+            android:layout_alignStart="@+id/etAddName"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/etAddProtein"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/textView22"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_alignLeft="@+id/etAddName"
+            android:layout_alignStart="@+id/etAddName"
+            android:gravity="center" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

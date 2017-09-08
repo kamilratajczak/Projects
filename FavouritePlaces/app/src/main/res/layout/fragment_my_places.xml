@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccc">
+
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/searchView"
+        android:background="#fff">
+    </android.support.v7.widget.SearchView>
+
+    <ListView
+        android:id="@+id/lvMiejsca"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

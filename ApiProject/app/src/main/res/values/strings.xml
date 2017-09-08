@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ApiProject</string>
+    <string name="title_user_detail">User Detail</string>
+    <string name="tv900">Kliknij na osobę, aby uzyskać szczegółowe informacje</string>
+
+    <item type="id" name="ID_TAG" />
+    <item type="id" name="RESOURCE_TAG" />
+    <item type="id" name="ADD_TAG" />
+    <item type="id" name="ADD9_TAG" />
+
+</resources>

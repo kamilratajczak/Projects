@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FavouritePlaces</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="login">Login</string>
+    <string name="password">Hasło</string>
+    <string name="new_account">Nie masz konta? Załóż je!</string>
+    <string name="zarejestruj">Zarejestruj</string>
+    <string name="confirm_password">Powtórz hasło</string>
+    <string name="adres">Adres:</string>
+    <string name="notatka">Dodaj notatkę</string>
+    <string name="zapisz">Zapisz</string>
+    <string name="anuluj">Anuluj</string>
+    <string name="gps">Brak sygnału GPS</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rlOpis"
+        android:background="#ccc"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+        <ImageView
+            android:id="@+id/ivItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_drop_down_black_24dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tvOpis"
+            style="@style/Dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="TextView"
+            android:layout_toStartOf="@+id/ivItem" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlAdres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlOpis"
+        android:background="#bbb"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/tvAddress"
+            style="@style/Dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="TextView" />
+
+    </RelativeLayout>
+</RelativeLayout>

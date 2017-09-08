@@ -1,0 +1,66 @@
+ <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccc"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+
+     <TextView
+         android:id="@+id/textView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentTop="true"
+         android:text="@string/adres"
+         style="@style/Dialog" />
+
+     <TextView
+         android:id="@+id/tvDialog"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_marginStart="3dp"
+         android:layout_toEndOf="@+id/textView"
+         android:text="@string/gps"
+         style="@style/Dialog" />
+
+     <EditText
+         android:id="@+id/etNotatka"
+         android:layout_width="match_parent"
+         android:layout_height="30dp"
+         android:layout_alignParentStart="true"
+         android:layout_below="@+id/textView"
+         android:layout_marginTop="30dp"
+         android:ems="10"
+         android:inputType="textPersonName"
+         android:text=""
+         android:hint="@string/notatka"
+         style="@style/Dialog"
+         android:background="@android:color/transparent" />
+
+     <Button
+         android:id="@+id/bNegative"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/anuluj"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/etNotatka"
+         android:layout_marginStart="20dp"
+         style="@style/Button" />
+
+     <Button
+         android:id="@+id/bPositive"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentEnd="true"
+         android:layout_alignTop="@+id/bNegative"
+         android:layout_marginEnd="20dp"
+         android:text="@string/zapisz"
+         style="@style/Button" />
+
+ </RelativeLayout>

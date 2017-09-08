@@ -1,0 +1,147 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mapamieszkan.MainActivity" >
+    
+    <EditText
+        android:id="@+id/Miasta"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:hint="Miasto"
+        android:background="@drawable/edittext"
+        style="@style/TextFieldsSpinner" />
+
+    <EditText
+        android:id="@+id/Ulice"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/Miasta"
+        android:layout_below="@+id/Miasta"
+        android:layout_marginTop="30dp"
+        android:hint="Ulica"
+        android:background="@drawable/edittext"
+        style="@style/TextFieldsSpinner" />
+    
+    <EditText
+        android:id="@+id/Numer"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/Ulice"
+        android:layout_below="@+id/Ulice"
+        android:hint="Numer"
+        android:layout_marginTop="30dp"
+        style="@style/TextFieldsSpinner" />
+
+    <Spinner
+        android:id="@+id/IloscPokoi"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/Numer"
+        android:layout_below="@+id/Numer"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext" />
+
+    <Spinner
+        android:id="@+id/Metraz"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/IloscPokoi"
+        android:layout_below="@+id/IloscPokoi"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext" />
+
+    <EditText
+        android:id="@+id/Cena"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/Metraz"
+        android:layout_below="@+id/Metraz"
+        android:hint="Cena"
+        android:layout_marginTop="30dp"
+        style="@style/TextFieldsSpinner" />
+
+    <TextView
+        android:id="@+id/tvMiasto"
+        style="@style/MyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Miasta"
+        android:layout_marginLeft="25dp"
+        android:text="@string/Miasto" />
+
+	<TextView
+	    android:id="@+id/tvUlica"
+	    style="@style/MyTextView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/Ulice"
+	    android:layout_alignLeft="@+id/tvMiasto"
+	    android:text="@string/Ulica" />
+
+    <TextView
+        android:id="@+id/tvNumer"
+        style="@style/MyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Numer"
+        android:layout_alignLeft="@+id/tvUlica"
+        android:text="@string/Numer" />
+    
+     <TextView
+         android:id="@+id/tvPokoje"
+         style="@style/MyTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/IloscPokoi"
+         android:layout_alignLeft="@+id/tvNumer"
+         android:text="@string/ilosc_pokoi" />
+
+    <TextView
+        android:id="@+id/tvWielkosc"
+        style="@style/MyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Metraz"
+        android:layout_alignLeft="@+id/tvPokoje"
+        android:text="@string/Metraz" />
+
+    <TextView
+        android:id="@+id/tvCena"
+        style="@style/MyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Cena"
+        android:layout_alignLeft="@+id/tvWielkosc"
+        android:text="@string/Cena" />
+
+    <ImageView
+        android:id="@+id/Camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cena"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_action_camera" />
+
+    <Button
+        android:id="@+id/Zmien"
+        style="@style/Buttons"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Camera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/Dodaj" />
+
+</RelativeLayout>

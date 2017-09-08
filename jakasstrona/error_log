@@ -1,0 +1,130 @@
+[27-Jun-2017 13:24:15 Europe/Berlin] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/connection.php on line 7
+[27-Jun-2017 13:29:26 Europe/Berlin] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/connection.php on line 7
+[27-Jun-2017 13:29:27 Europe/Berlin] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/connection.php on line 7
+[27-Jun-2017 13:29:28 Europe/Berlin] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/connection.php on line 7
+[27-Jun-2017 13:29:29 Europe/Berlin] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/connection.php on line 7
+[27-Jun-2017 13:29:32 Europe/Berlin] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/connection.php on line 7
+[27-Jun-2017 13:31:19 Europe/Berlin] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'apkawwsi'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/connection.php on line 7
+[27-Jun-2017 13:35:33 Europe/Berlin] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'apkawwsi_admin'@'localhost' to database 'apkawwsi_sklep' in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/connection.php on line 7
+[27-Jun-2017 13:36:55 Europe/Berlin] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'apkawwsi_test'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/connection.php on line 7
+[27-Jun-2017 13:38:14 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/m-spodnie.php on line 113
+[27-Jun-2017 13:51:30 Europe/Berlin] PHP Notice:  Undefined index: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/zamowienie.php on line 40
+[27-Jun-2017 13:51:30 Europe/Berlin] PHP Notice:  Undefined index: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/zamowienie.php on line 100
+[27-Jun-2017 14:03:20 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[27-Jun-2017 14:03:20 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[29-Jun-2017 19:38:14 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[29-Jun-2017 19:38:14 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[29-Jun-2017 19:39:51 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[29-Jun-2017 19:39:51 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[29-Jun-2017 19:44:43 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[29-Jun-2017 19:44:43 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[29-Jun-2017 19:44:43 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 29
+[29-Jun-2017 19:44:43 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 49
+[29-Jun-2017 19:45:50 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[29-Jun-2017 19:45:50 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[29-Jun-2017 19:45:50 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 29
+[29-Jun-2017 19:45:50 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 49
+[29-Jun-2017 19:49:21 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[29-Jun-2017 19:49:21 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[29-Jun-2017 19:49:21 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 29
+[29-Jun-2017 19:49:21 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 49
+[29-Jun-2017 19:50:29 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[29-Jun-2017 19:50:29 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[29-Jun-2017 19:50:29 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 29
+[29-Jun-2017 19:50:29 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 49
+[29-Jun-2017 19:55:40 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[29-Jun-2017 19:55:40 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:13:52 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:13:52 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:13:52 Europe/Berlin] PHP Notice:  Undefined index: fileToUpload in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 30
+[30-Jun-2017 10:14:42 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:14:42 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:15:22 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:15:22 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:15:22 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 30
+[30-Jun-2017 10:17:05 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:17:05 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:17:05 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 30
+[30-Jun-2017 10:19:41 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:19:41 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:19:41 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 30
+[30-Jun-2017 10:23:09 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:23:09 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:23:09 Europe/Berlin] PHP Notice:  Undefined index: fileToUpload in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 29
+[30-Jun-2017 10:23:09 Europe/Berlin] PHP Notice:  Undefined index: fileToUpload in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 49
+[30-Jun-2017 10:24:17 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:24:17 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:24:17 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 29
+[30-Jun-2017 10:24:17 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 49
+[30-Jun-2017 10:26:42 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:26:42 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:26:42 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 29
+[30-Jun-2017 10:26:42 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 49
+[30-Jun-2017 10:27:19 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:27:19 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:27:19 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 29
+[30-Jun-2017 10:27:19 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 49
+[30-Jun-2017 10:29:23 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:29:23 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:29:23 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 29
+[30-Jun-2017 10:29:23 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 33
+[30-Jun-2017 10:29:23 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 35
+[30-Jun-2017 10:32:55 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:32:55 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:32:55 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 28
+[30-Jun-2017 10:32:55 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 31
+[30-Jun-2017 10:32:55 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 33
+[30-Jun-2017 10:32:55 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 35
+[30-Jun-2017 10:33:15 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:33:15 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 13
+[30-Jun-2017 10:33:15 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 28
+[30-Jun-2017 10:33:15 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 31
+[30-Jun-2017 10:33:15 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 33
+[30-Jun-2017 10:33:15 Europe/Berlin] PHP Notice:  Undefined index: photo in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 35
+[30-Jun-2017 10:33:49 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:34:09 Europe/Berlin] PHP Notice:  Undefined variable: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 7
+[30-Jun-2017 10:41:25 Europe/Berlin] PHP Notice:  Undefined index: 59560eb5351d4 in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 31
+[30-Jun-2017 10:41:25 Europe/Berlin] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 33
+[30-Jun-2017 10:41:25 Europe/Berlin] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phptJWCJR' to 'images/' in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 33
+[30-Jun-2017 10:44:41 Europe/Berlin] PHP Notice:  Undefined index: 59560f7926578 in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 31
+[30-Jun-2017 10:44:41 Europe/Berlin] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 33
+[30-Jun-2017 10:44:41 Europe/Berlin] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/php3GlGiu' to 'images/' in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/dodajprodukt.php on line 33
+[30-Jun-2017 11:56:48 Europe/Berlin] PHP Notice:  Undefined index: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/zamowienie.php on line 40
+[30-Jun-2017 11:56:48 Europe/Berlin] PHP Notice:  Undefined index: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/zamowienie.php on line 100
+[07-Jul-2017 18:41:14 Europe/Berlin] PHP Notice:  Undefined index: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/zamowienie.php on line 40
+[07-Jul-2017 18:41:14 Europe/Berlin] PHP Notice:  Undefined index: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/zamowienie.php on line 100
+[07-Jul-2017 18:43:16 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:43:16 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:43:16 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 7
+[07-Jul-2017 18:43:16 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 7
+[07-Jul-2017 18:43:29 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:43:29 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:43:29 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 7
+[07-Jul-2017 18:43:29 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 7
+[07-Jul-2017 18:48:05 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:48:05 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:48:05 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 7
+[07-Jul-2017 18:48:05 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 7
+[07-Jul-2017 18:51:47 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:51:47 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:51:59 Europe/Berlin] PHP Notice:  Undefined index: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 4
+[07-Jul-2017 18:51:59 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:51:59 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:52:13 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:52:13 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 5
+[07-Jul-2017 18:54:30 Europe/Berlin] PHP Notice:  Undefined variable: l_sql in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 10
+[07-Jul-2017 18:54:59 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 23
+[07-Jul-2017 18:54:59 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 23
+[07-Jul-2017 18:54:59 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 24
+[07-Jul-2017 18:54:59 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 24
+[07-Jul-2017 18:58:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected $end in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 44
+[07-Jul-2017 19:00:13 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 11
+[07-Jul-2017 19:00:13 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 11
+[07-Jul-2017 19:00:13 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 13
+[07-Jul-2017 19:00:13 Europe/Berlin] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 13
+[07-Jul-2017 19:04:36 Europe/Berlin] PHP Fatal error:  Call to undefined function sprint() in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 22
+[07-Jul-2017 19:05:08 Europe/Berlin] PHP Fatal error:  Call to undefined function sprint() in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/rejestracja.php on line 22
+[08-Jul-2017 12:14:43 Europe/Berlin] PHP Notice:  Undefined index: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/zamowienie.php on line 40
+[08-Jul-2017 12:14:43 Europe/Berlin] PHP Notice:  Undefined index: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/zamowienie.php on line 100
+[08-Jul-2017 14:43:17 Europe/Berlin] PHP Notice:  Undefined index: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/zamowienie.php on line 40
+[08-Jul-2017 14:43:17 Europe/Berlin] PHP Notice:  Undefined index: login in /home/apkawwsi/jakasstrona.apkawwsis.nstrefa.pl/zamowienie.php on line 100

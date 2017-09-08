@@ -1,0 +1,319 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bottom_line"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:id="@+id/layoutSearchMeals"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView16"
+            style="@style/tvProductsWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kcal"
+            android:layout_alignBaseline="@+id/tvProductsWeight2"
+            android:layout_toRightOf="@+id/tvProductsWeight2"
+            android:layout_toEndOf="@+id/tvProductsWeight2"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp" />
+
+        <TextView
+            android:id="@+id/tvProductsWeight2"
+            style="@style/tvProductsWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_alignBaseline="@+id/textView14"
+            android:layout_alignBottom="@+id/textView14"
+            android:layout_toRightOf="@+id/textView14"
+            android:layout_toEndOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView14"
+            style="@style/tvProductsWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gram - "
+            android:layout_below="@+id/tvProductsName"
+            android:layout_toRightOf="@+id/tvProductsWeight"
+            android:layout_toEndOf="@+id/tvProductsWeight"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp" />
+
+        <TextView
+            android:id="@+id/tvProductsWeight"
+            style="@style/tvProductsWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvProductsName"
+            android:text="textView3" />
+
+        <TextView
+            android:id="@+id/tvProductsName"
+            style="@style/tvProductsName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="textView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/check_box"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutInvisible"
+        android:layout_below="@+id/layoutSearchMeals"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/quantityLayout"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/bottom_line_search2" >
+
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/tvAllCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/tvSearchSize"
+                android:layout_toRightOf="@+id/tvSearchSize"
+                android:text="gram" />
+
+            <TextView
+                android:id="@+id/tvSearchSize"
+                style="@style/tvAllCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/textView2"
+                android:layout_toRightOf="@+id/textView2"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/tvAllCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity:"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/numberPickerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/quantityLayout"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bottom_line_search2"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/tvProductsName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/numberPicker"
+                android:layout_toRightOf="@+id/numberPicker"
+                android:text="gram" />
+
+            <NumberPicker
+                android:id="@+id/numberPicker"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:descendantFocusability="blocksDescendants" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/searchLayout"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/numberPickerLayout"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bottom_line_search2"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvSearchProtein"
+                android:layout_alignBottom="@+id/tvSearchProtein"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Protein: " />
+
+            <TextView
+                android:id="@+id/textView19"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvSearchCarbs"
+                android:layout_alignBottom="@+id/tvSearchCarbs"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Carbs: " />
+
+            <TextView
+                android:id="@+id/textView17"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Calories: " />
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gram"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/tvSearchCalories"
+                android:layout_toEndOf="@+id/tvSearchCalories" />
+
+            <TextView
+                android:id="@+id/textView10"
+                style="@style/tvCalories"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gram"
+                android:layout_alignBaseline="@+id/tvSearchFat"
+                android:layout_alignBottom="@+id/tvSearchFat"
+                android:layout_toRightOf="@+id/tvSearchFat"
+                android:layout_toEndOf="@+id/tvSearchFat" />
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/tvCalories"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gram"
+                android:layout_below="@+id/textView10"
+                android:layout_toRightOf="@+id/tvSearchCarbs"
+                android:layout_toEndOf="@+id/tvSearchCarbs" />
+
+            <TextView
+                android:id="@+id/textView12"
+                style="@style/tvCalories"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gram"
+                android:layout_below="@+id/textView11"
+                android:layout_toRightOf="@+id/tvSearchProtein"
+                android:layout_toEndOf="@+id/tvSearchProtein" />
+
+            <TextView
+                android:id="@+id/tvSearchProtein"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_below="@+id/tvSearchCarbs"
+                android:layout_toRightOf="@+id/textView20"
+                android:layout_toEndOf="@+id/textView20" />
+
+            <TextView
+                android:id="@+id/tvSearchCalories"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView17"
+                android:layout_toEndOf="@+id/textView17" />
+
+            <TextView
+                android:id="@+id/tvSearchFat"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_alignBaseline="@+id/textView18"
+                android:layout_alignBottom="@+id/textView18"
+                android:layout_toRightOf="@+id/textView18"
+                android:layout_toEndOf="@+id/textView18" />
+
+            <TextView
+                android:id="@+id/tvSearchCarbs"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_below="@+id/tvSearchFat"
+                android:layout_toRightOf="@+id/textView19"
+                android:layout_toEndOf="@+id/textView19" />
+
+            <TextView
+                android:id="@+id/textView18"
+                style="@style/tvCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView17"
+                android:text="Fat: " />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

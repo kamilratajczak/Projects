@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_margin">25dp</dimen>
+    <dimen name="margin_dt">19dp</dimen>
+    <dimen name="detail_size">29dp</dimen>
+    <dimen name="imie_size">28dp</dimen>
+    <dimen name="vector_size">39dp</dimen>
+    <dimen name="add_size">59dp</dimen>
+    <dimen name="search_size">45dp</dimen>
+</resources>

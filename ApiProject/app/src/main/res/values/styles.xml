@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="tvImie">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/imie_size</item>
+    </style>
+
+    <style name="tv900">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="detail">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/detail_size</item>
+    </style>
+
+    <style name="name900">
+        <item name="android:textColor">#F03F</item>
+        <item name="android:textSize">@dimen/detail_size</item>
+    </style>
+
+</resources>

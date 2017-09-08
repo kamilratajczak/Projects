@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calories"
+            android:icon="@drawable/ic_fitness_center_black_24dp"
+            android:title="Calories" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_add_product"
+            android:icon="@drawable/ic_pregnant_woman_black_24dp"
+            android:title="Add new product" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_atlas"
+                android:icon="@drawable/ic_dvr_black_24dp"
+                android:title="Atlas exercise" />
+        </menu>
+    </item>
+
+</menu>

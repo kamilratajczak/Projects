@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    android:gravity="top"
+    android:paddingBottom="@dimen/lv_vertical_margin"
+    android:paddingLeft="@dimen/lv_horizontal_margin"
+    android:paddingRight="@dimen/lv_horizontal_margin"
+    android:paddingTop="@dimen/lv_vertical_margin"
+    tools:context="com.example.mapamieszkan.MainActivity" >
+
+    <ImageView
+        android:id="@+id/ivZdjecie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvAdres"
+        android:src="@drawable/ic_action_camera" />
+
+    <TextView
+        android:id="@+id/tvTyp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ivZdjecie"
+        android:text="Large Text"
+		style= "@style/ListView" />
+
+    <TextView
+        android:id="@+id/tvCena"
+        style="@style/ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvTyp"
+        android:layout_alignBottom="@+id/tvTyp"
+        android:layout_alignParentRight="true"
+        android:text="500" />
+
+    <TextView
+        android:id="@+id/tvMetraz"
+        style="@style/ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvCena"
+        android:layout_alignBottom="@+id/tvCena"
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@+id/tvCena"
+        android:text="@string/Cena" />
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvCena"
+        android:layout_alignTop="@+id/tvAdres"
+        style="@style/ListView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvData"
+        android:layout_alignBottom="@+id/tvData"
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@+id/tvData"
+        android:text="@string/Data_dodania" />
+
+    <TextView
+        android:id="@+id/tvAdres"
+        style="@style/ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Large Text" />
+    
+</RelativeLayout>
